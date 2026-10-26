@@ -1,1 +1,42 @@
-# Accident-Analysis
+# UK Road Accident Analysis (2019 - 2025)
+
+## 📌 Project Overview
+This project performs an Exploratory Data Analysis (EDA) and temporal trend analysis on road traffic accidents in the United Kingdom (UK) from 2019 to 2025. By analyzing environmental factors, road conditions, and vehicle types, this project identifies key risk patterns to support data-driven decision-making for road safety.
+
+## 🎯 Problem Statement
+The high frequency of road accidents significantly impacts public safety and infrastructure. The key analytical questions addressed in this project include:
+1. **Temporal Trends:** How have the frequency and severity of traffic accidents evolved from 2019 through 2025?
+2. **Environmental Factors:** To what extent do weather, road surface conditions, and lighting affect accident severity?
+3. **Vehicle Factors:** Which vehicle types are most frequently involved in traffic incidents?
+4. **Geographic Distribution:** Which districts experience the highest concentration of accidents and casualties?
+
+## 📊 Dataset Description
+The dataset is sourced from Kaggle and covers recorded road traffic accidents across the UK:
+- **Timeframe:** 2019 – 2025
+- **Data Volume:** 670,679 rows and 14 columns
+- **Coverage:** 422 district areas and 910,120 casualties
+- **License:** MIT License
+- **Data Source:** [Accident Analysis Dataset on Kaggle](https://www.kaggle.com/datasets/deeplumiere/accident-analysis-dataset)
+
+> **Note:** In compliance with licensing and GitHub storage best practices, the raw data file is not hosted in this repository. Please download the original dataset directly from the Kaggle link above.
+
+## 🛠️ Methodology & Analytical Workflow
+The analytical pipeline follows these structured steps:
+1. **Data Cleaning & Preprocessing:**
+   - Handling missing values and parsing temporal data types (dates and timestamps).
+   - Validating and encoding categorical variables.
+2. **Exploratory Data Analysis (EDA):**
+   - Univariate and bivariate analysis to evaluate key variable distributions.
+   - Assessing the relationship between weather/lighting conditions and casualty severity.
+3. **Geospatial & District Aggregation:**
+   - Aggregating metrics across 422 districts to highlight high-risk accident hotspots.
+4. **Data Visualization:**
+   - Building annual trend charts, temporal heatmaps, and vehicle distribution plots using `matplotlib` and `seaborn`.
+
+## 📂 Repository Structure
+```text
+.
+├── .gitignore                  # Prevents temporary Python/Colab files from being tracked
+├── LICENSE                     # MIT License
+├── README.md                   # Main project documentation
+└── Accident_Analysis.ipynb     # Primary analytical notebook (Google Colab)
