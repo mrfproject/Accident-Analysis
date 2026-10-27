@@ -18,6 +18,22 @@ The dataset is sourced from Kaggle and covers recorded road traffic accidents ac
 - **License:** MIT License
 - **Data Source:** [Accident Analysis Dataset on Kaggle](https://www.kaggle.com/datasets/deeplumiere/accident-analysis-dataset)
 
+## 📊 Coloumn Description
+- Index: A unique identification number or reference number for each traffic accident record.
+- Accident_Severity: The severity level of the accident 
+- Accident Date: The date when the traffic accident occurred 
+- Latitude: The geographical latitude coordinate of the accident location 
+- Light_Conditions: The lighting conditions at the time of the accident
+- District Area: The name of the district or area where the accident took place 
+- Longitude: The geographical longitude coordinate of the accident location 
+- Number_of_Casualties: The total number of casualties or people injured as a result of the accident.
+- Number_of_Vehicles: The total number of vehicles involved in the accident.
+- Road_Surface_Conditions: The condition of the road surface at the time of the incident 
+- Road_Type: The type or configuration of the road where the accident occurred 
+- Urban_or_Rural_Area: The classification of whether the location is in an urban area (Urban) or a rural area (Rural).
+- Weather_Conditions: The weather conditions during the accident 
+- Vehicle_Type: The type of vehicle involved 
+
 > **Note:** In compliance with licensing and GitHub storage best practices, the raw data file is not hosted in this repository. Please download the original dataset directly from the Kaggle link above.
 
 ## 🛠️ Methodology & Analytical Workflow
